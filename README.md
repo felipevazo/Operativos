@@ -34,3 +34,25 @@ Inodos:64 bytes.
 Busqueda tipo arbol Binario.
 Comprimir archivo: ELiminar redundancias
 Ej: Comprimir texto "Este  texto es un archivo"->(ESTXONARUI+ descriptor de repeticion.)
+
+
+
+directorios linux:
+
+/ Raiz del sistema de dirextorios
+/etc Archivos de configuracion
+/home directorio personal
+/bin comandos basicos
+/sbin binarios y comandos de sistema
+/dev archivos simbolicos que representan partes de hardware
+/mnt subdirectorios donde se montan con otras particiones  dediscoduro, cdrom etc.
+/tmp archivos temporales
+/usr programas y librerias instalados por distribucion
+/usr/local Programas y librerias por administrador
+/sbin comandos administrativos
+/lib librerias de sistema
+/var datos varios como archivos de log, bases de datos, contenidos de servidor web, copias de seguridad.
+/proc informacion temporal sobre procesos de sistema.
+
+
+pwd: donde estoy.
