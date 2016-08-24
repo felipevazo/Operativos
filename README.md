@@ -78,3 +78,36 @@ Cuentas de usuario:
 -Superusuario=root
 -Usuario=no root
 Puedo crear usuario, darle permisos de root, pero no será root (no todos los permisos)
+crear usuario: useradd nombreusuario-> crea usuario y crea directorio de usuario
+passwd usuario1-> cambia clave de usuario1
+passwd-> cambia clave de cuenta actual.
+usuario1 se crea automaticamente como grupo, para recibir usuario1 (por defecto)
+en archivo /etc/passwd se encuentran cuentas de usuarios y 
+en /etc/group estan los grupos
+en /etc/shadow estan los password
+chown     Permite modificar owner y grupo de objetoxx
+touch-> crear archivos vacios.
+chown usuario1:usuario1 hola.ntexto -> nomre usuario, grupo archivo
+iniciar sesion: 2 opciones
+- Reiniciar
+- su-> swap user -> su usuario1
+- su solo -> root
+- su - -> entra con root
+- 
+Editores de texto
+2 principales
+-Texto enriquecido
+-Texto plano(ascii)<- usaremos este, pq shell y so  lo entienden.
+Instalacion de software:
+
+Software compilado: fuentes.config -> compila-> crea instalador-> instala.
+Paquetes binarios: instaladores compilados
+
+en centOS: por repositorios-> yum
+yum list= base de datos online!
+yum search
+yum install nano -> inswtala nano
+en debian yum no ta na, en cambio apt o aptitude 
+ubuntu: synaptic-> grafico
+nano se instala en /bin o en /usr/bin, probablemente en usr/bin
+moya chupalo <3
