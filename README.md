@@ -56,3 +56,25 @@ directorios linux:
 
 
 pwd: donde estoy.
+
+3 tipos de permiso
+- Lectura: r
+- Escritura:w
+- EJecucion :x
+Todos los archivos(elementos) tienen usuarios asociados:
+-Usuario Dueño
+-Grupo Dueño
+Por defecto cuando yo creo un archivo, tienen como dueño el usuario, y grupo el del usuario que lo creo, usuario puede cambiar dueño y grupo a placer.
+Orden de permisos
+rwx rwx rwx: Usuario dueño/Grupo dueño/Resto mundo
+Comando para asignar permisos: chmod
+ej: chmod(Permisos) objeto-> archivo o directorio
+Permisos=valor decimal
+Todos los permisos:2²+2¹+2⁰=7
+Lectura y ejecucion:2²+2⁰=5
+Otros: Lectura:2²=4
+por lo tanto chmod 754 objeto
+Cuentas de usuario:
+-Superusuario=root
+-Usuario=no root
+Puedo crear usuario, darle permisos de root, pero no será root (no todos los permisos)
