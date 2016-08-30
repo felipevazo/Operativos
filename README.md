@@ -136,3 +136,4 @@ ELIMINAR -> rm
 Permisos de ejecucion -> chmod +x tex1 
 ejecutar : ./tex1
 #!/bin/bash -> aviso para kernel de comandos en bin/bash
+echo -> sout-> console.log -> escribir  
