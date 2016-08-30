@@ -110,4 +110,29 @@ yum install nano -> inswtala nano
 en debian yum no ta na, en cambio apt o aptitude 
 ubuntu: synaptic-> grafico
 nano se instala en /bin o en /usr/bin, probablemente en usr/bin
-moya chupalo <3
+moya chupalo <3, 10-4
+sudo chmod -R 777 archivo/ -> Recursividad
+ifconfig ->>> pa saber si hay nety
+ifup nombrered
+mkdir nombredirectorio -> crea directorio
+Crear grupo -> groupadd
+cat -> ver contenido de archivo"more y less , mas y menos"
+usermod -a -G nombregrupo nombreusuario
+
+
+
+VI:
+i -> insertar 
+w-> write
+q -> quit
+
+
+comandos
+cp -> copiar : cp nombretexto caldopollo
+mv -> mover : mv nombretexto nombredirectorio
+RENOMBAR -> 
+mv nombrearchivo nombrenuevo -> CAMBIO ARCHIVO
+ELIMINAR -> rm
+Permisos de ejecucion -> chmod +x tex1 
+ejecutar : ./tex1
+#!/bin/bash -> aviso para kernel de comandos en bin/bash
