@@ -137,3 +137,42 @@ Permisos de ejecucion -> chmod +x tex1
 ejecutar : ./tex1
 #!/bin/bash -> aviso para kernel de comandos en bin/bash
 echo -> sout-> console.log -> escribir  
+
+
+
+Materia!
+
+que es shell: interprete de comandos, interfaz de usuario tradicional 
+cat /etc/passwd -> ver shell
+
+Programación en Shell
+que hace un shell script -> archivo de texto con comandos.
+requisitos: Texto Plano (ASCII), que sea ejecutable (permisos de ejecucion)
+en windows .bat, en linux debe tener x )archivo
+
+
+rpm-> red hat packet manager
+rpm -qa nano -> PREGUNTO SI EXISTE NANO.
+
+Variables
+
+nombrevariable=4 ejemplo.
+desplegar: echo $nombrevariable
+llamarla: nombrevariable
+espacio= \, o comillas.
+COMILLAS
+dobles =texto sin caracteres especiales
+invertidas = guardar comando en variable.
+OPERACIONES ARITMETICAS
+$[]-> dentro va operacion
+read A -> LEE VALOR DE TECLADO
+DIALOG -> ventanita --yesno .> pregunta si no
+dialog --imputbox -> PROMPT  
+       --msgbox -> ACEPTAR
+       --menu -> muestra menu
+LINEA CON GATO NO SE EJECUTA, LOS MIAUS SON BELICOS
+SE RECOMIENDA GUARDAR DIALOG EN VARIABLE, funcionan con if.
+if [$OPCION==1] 
+then
+  hace cosas
+  fi -> fin if
