@@ -167,7 +167,7 @@ OPERACIONES ARITMETICAS
 $[]-> dentro va operacion
 read A -> LEE VALOR DE TECLADO
 DIALOG -> ventanita --yesno .> pregunta si no
-dialog --imputbox -> PROMPT  
+dialog --imputbox --stdout -> PROMPT  
        --msgbox -> ACEPTAR
        --menu -> muestra menu
 LINEA CON GATO NO SE EJECUTA, LOS MIAUS SON BELICOS
