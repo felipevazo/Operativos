@@ -175,4 +175,57 @@ SE RECOMIENDA GUARDAR DIALOG EN VARIABLE, funcionan con if.
 if [$OPCION==1] 
 then
   hace cosas
+else
+   hace otras coosas
   fi -> fin if
+
+
+clase 6/9/16
+-Shell scripting
+-> Estructuras de control 
+   * Estructuras de desicion.
+      *If-> ESPACIOS POR TODOS LADOS!
+      *For->for ( ( i=1 ; i<=tope; i++ ) )
+          do 
+                 HLQHQH
+          done
+Para todas las shells ahora 
+      for a in{1 .. 10} -> NO CONSIDERA EL ZIRO -> no solo numeros, acepta cualquier wea 
+      do
+         HLQHQH
+      done
+
+   * while /untiL
+   * while[ $a -lt 10 ]
+      do
+        HLQHQH
+        a=$[$a+1]
+      done
+
+    > y <  -> redireccionar la salida de un comando
+    date> fecha
+        >> se guarda linea siguiente
+        
+ Compresion y empaquetado
+  Compresion-> gzip, empaquetado -> tar
+   Respaldo de directorio 
+   empaquetando: tar cvzf
+   c:crear
+   v:verdose
+   z:gzip -> este comprime
+   f:file
+   tar cvzf respaldo_scripts.tar.gz ruta
+   cron y crontab -> programar ejecucion de tareas en sistemax
+   * * * * * command to be executed
+   * = minuto (0-59)
+   * *=hora(0-23)
+   * **= dia del mes (1-31)
+   * *** mes(1-12)
+   * ****dia de la semana(domingo=0, 0-6)
+   * 
+   Ejemplo: 30 2 * * 6 /root/script
+    traduccion: a las 2:30 cualquier mes, cualquier dia del mes, en sabado
+   
+   
+   
+   
