@@ -90,7 +90,7 @@ touch-> crear archivos vacios.
 chown usuario1:usuario1 hola.ntexto -> nomre usuario, grupo archivo
 iniciar sesion: 2 opciones
 - Reiniciar
-- su-> swap user -> su usuario1
+- su-> swap user ->EJ: su usuario1
 - su solo -> root
 - su - -> entra con root
 - 
@@ -226,6 +226,14 @@ Para todas las shells ahora
    Ejemplo: 30 2 * * 6 /root/script
     traduccion: a las 2:30 cualquier mes, cualquier dia del mes, en sabado
    
-   
-   
+   ARCHIVOS OCULTOS: .NOMBRE
+
+
+BUSCAR ARCHIVOS:
+HOLI
+find . -name ?a?? -> 4 letras con a en segunda posicion -> busca donde estas pàrado ( :$ coqueto) 
+locate-> consulta una base de datos de los objetos del fileSystem.. actualizar base de datos : update db
+
+   crear accesos directos
+   ln -s ruta nombreacceso
    
