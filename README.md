@@ -237,3 +237,20 @@ locate-> consulta una base de datos de los objetos del fileSystem.. actualizar b
    crear accesos directos
    ln -s ruta nombreacceso
    
+preguntas fijas: tipos y partes de linux
+monolitico/hibrido 
+componentes: kernel shell herramientas/proigeramas del sistema, 4ta cosa que no recuerdo :3
+funciones de kernel: admiinistracfion de memoria, procesos y control a perifericos :3
+que hace la shell: pq es tan importante?
+
+
+Estructura de directorio de linux:
+                                    directorios principales y que hay aenshro
+                                    
+usuarios y grupos en linus, la cuenta rut , 300 pesos por giro y 100 pesos por consultas
+chmod 777 +x +r +w -r -w -x 
+
+ date > fecha.text
+usa comando y lo ingresa(crea) en el testo, si ejecutas testo (./fecha.text) aparece fesha
+mas lineas  date >>fecha.txt
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
