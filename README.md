@@ -254,3 +254,41 @@ chmod 777 +x +r +w -r -w -x
 usa comando y lo ingresa(crea) en el testo, si ejecutas testo (./fecha.text) aparece fesha
 mas lineas  date >>fecha.txt
 >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+ç
+
+materia nueah!
+cron y crontab -> tareas programadas 
+
+cron -> servicio(proceso) 
+       *crea logs
+       *rotacion logs
+       *procesa correos entrante/saliente
+       *archivo de configuracion -> crontab: tareas programadas por usuario
+                                    *cron.allow-> lista usuarios que si pueden
+                                    *cron.deny-> lista usuarios que no pueden
+                                    modificar tareas programadas -> crontab -e -> archivo crontab -edition!
+                                                                        crontab -e -u nombre-del-usuario
+                                    
+                         * * * * * command to be executed
+   * = minuto (0-59)
+   * *=hora(0-23)
+   * **= dia del mes (1-31)
+   * *** mes(1-12)
+   * ****dia de la semana(domingo=0-7, 0-6)
+   * 
+   Ejemplo: 30 2 * * 6 /root/script
+    traduccion: a las 2:30 cualquier mes, cualquier dia del mes, en sabado
+
+   Ejemplo 2 
+            1 * * * * /usr/sbin/ntpdate werken.ufro.cl -> sincroniza hora!
+            
+            
+            
+   Ejemplo 3 crontab -e */1  *  *  *  *  /root/scripts/fecha-> tab, no spaces, ruta completa y permisos de ejecusound
+   tail -f archivo -> se pone a la cola del archivo y ve modificasound
+   si no le digo donde lo crea, lo crea en el home del usuario! (root para root)
+   ctrl c cierro la cola papu
+   
+   
+   env-> enviroment -> variables de entorno
+   
