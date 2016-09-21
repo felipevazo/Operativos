@@ -292,3 +292,8 @@ cron -> servicio(proceso)
    
    env-> enviroment -> variables de entorno
    
+   
+   
+   
+   contar numero lineas de documento!
+   wc -l nombrr archivo 
