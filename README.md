@@ -297,3 +297,42 @@ cron -> servicio(proceso)
    
    contar numero lineas de documento!
    wc -l nombrr archivo 
+-----------------------------------------------------------------------------------------------------------
+materia nuevita :') 
+
+   PROCESOS!!!
+ATRIBUTO MAS IMPORTANTE -> PID (PROCESS ID ): numero entero, secuencial :3, INIT tiene PID=1
+hereda entorno de padre, o del Ppid en caso de que papi no tenga!
+
+NICE NUMBER: PRIORIDAD DE PROCESO
+
+COMANDOS GESTION PROCESOS
+ ps-> procesos que corren en el sistema
+ -a -> todos los procesos interactivos que corren en sistema
+ -x -> no pertenecen a terminales de usuario! (sistema)
+ -l -> formato largo
+ -u -> formato de usuario(incluye propietario del procesox)
+ pstree -> ARBOLITO! mas bonito y detallado
+ top (?) cosas mas bonis 
+ luego de comando |grep, gralmente se usa para patron de texto predeterminado! 
+ 
+ Ejecucion de procesos en 1er y 2do plano.
+ 
+ primer plano: tu lo ejecutas en la consola, corre y la consola queda pegada hasta que lo suelta(hace pega completa para temrinarsssssssssssssssssssssssssssssssssS)
+ matar proceso =ctrl-C-> libera toda memoria, muere pium pium
+ detenrllo= ctrl-Z ->lo detiene, queda en espera, no muere
+ segundo plano! -> &<- this this this 
+ jobs -> aparecen segundos planitos
+ sighup -> colgar
+ sigint-> para proceso y desdaparece 
+ sigkill -> ASESINO
+ sigterm-> apagar de windaws
+ sigcont-> continuar
+ sigstop-> detener con pausas
+ bg [jobspec] = lo tira pashra
+ fg [jobspec] =lo tira paelante gansho
+ root -> puede subir y bajar prioridad
+ user normal-> solo bajar
+ a mayor naiz (nice) menor prioridad, a menor naiz-> mayor prioridad
+ PRIORIDAD -> 80 + naiz
+ puedes matar casi todo siendo root, deja la cagá loco 
