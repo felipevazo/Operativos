@@ -336,3 +336,13 @@ COMANDOS GESTION PROCESOS
  a mayor naiz (nice) menor prioridad, a menor naiz-> mayor prioridad
  PRIORIDAD -> 80 + naiz
  puedes matar casi todo siendo root, deja la cagá loco 
+
+
+
+host-> Maquina 
+dentro de un servidor, genera "maquinas virtuales" con sitios, que es lo que ve el usuario
+si vas a tener un servidor y solo un sitio web NO NECESITAS CONFIGURAR NIUNA WEA
+si no gg 
+en google apache web server tunning -> SITIOS FOROS Y COSAS DONDEEEEEE hay modulos con configuraciones prehechas dependiendo que quieras hacere gansho
+raiz de documentos web -> /var/www/html
+service httpd NOMBRECOMANDOS COSAS ALO ME CAI
