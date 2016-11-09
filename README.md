@@ -346,3 +346,11 @@ si no gg
 en google apache web server tunning -> SITIOS FOROS Y COSAS DONDEEEEEE hay modulos con configuraciones prehechas dependiendo que quieras hacere gansho
 raiz de documentos web -> /var/www/html
 service httpd NOMBRECOMANDOS COSAS ALO ME CAI
+
+
+
+
+mai ese cu ele:
+COMANDOS
+-Administrativos:
+-SQL: -> consultas Structure query langüeish para BD relacionales.
