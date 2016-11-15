@@ -354,3 +354,69 @@ mai ese cu ele:
 COMANDOS
 -Administrativos:
 -SQL: -> consultas Structure query langüeish para BD relacionales.
+
+
+
+PEACHEPE -> LENGUAJE DE PROGRAMASAUND-> lenguaje interpretado
+revisar configurasound-> phpinfo()-> se pone dentro de una pagina peachepe y ejecuto
+Programar php:
+
+
+<?php
+cosas codigos;
+poto;
+asdfg;
+asdopfdspojopdK;
+
+?>
+
+
+sintaxis: tienen ; como en yaba
+
+
+EN EL DOCUMENT RUT :
+vi info.php
+<?php
+phpinfo();
+$a=1;
+$b=2;
+$suma=$a+$b;
+echo $suma;
+?>
+
+
+w3schools.com/php/default.asp -> DESARROLLO WEB EN GRAL, PHP,JAVA,JAVASCRIPT; HTMPASDASTgoiweryjhoietpdjpo
+
+
+INGRESO DE DATOS EN PEACHEPE
+FORM HTML -> ventanita->formulario
+A (cajita de texto)
+B (cajita de texto)
+         (botoncito sumar)
+
+
+PARENTESIS DE HTML
+para sumar dos numeritos deberia hacer un form html
+en este caso se llamara leenumeros.html
+
+metodo post = pasar°!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+<html>
+      <form name='numeros' action='sumar.php' method='post'>
+       A<input type='text' name='a'><br>
+       B<input type='text' name='b'><br>
+       <input type='submit' name='sumar'><br>
+       
+      </form>
+      
+      </html>
+      
+      AHI MISMO HAY QUE HACER EL sumar.php
+      por ejemplo
+      <?php
+      echo "Esta es la suma:"
+      $A=$_POST["a"];
+      $A=$_POST["b"];
+      $suma=$a+$b;
+      echo $suma;
+      +
+      ?>
