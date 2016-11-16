@@ -420,3 +420,16 @@ metodo post = pasar°!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
       echo $suma;
       +
       ?>
+      
+      
+      
+      
+      
+      
+      
+      
+      CPANEL -> herramienta de administracion web, contratando virtual server te dan cpanel y cp pa que hagas cosas
+      webmin-> similar a cpanel pero  free , y basado en servidores gnu/linux
+      
+      CONFIGUIRASOUND DE RESPOSIASTORIOS
+      t
